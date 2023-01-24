@@ -456,8 +456,8 @@ width: 100%;
 
   .box .image{
     margin: 10px 0;
-    height: 250px;
-    width: 250px;
+    height: 280px;
+    width: 280px;
     background: #f209d7;
     padding: 3px;
     border-radius: 50%;
@@ -490,8 +490,9 @@ width: 100%;
     margin-top: 20px;
   }
 
-  .team-con .box:hover{
-    transform: scale(1.1);
+  .team-con .box:hover .image{
+    transform: scale(1.0);
+    background-color:#ff4da6;
   }
 
   .text-con{
@@ -601,6 +602,12 @@ width: 100%;
   /*  */
  
  /* HERO */
+ .programs{
+  font-family: monospace;
+  padding: 10px;
+  margin-bottom: -20px;
+  text-align: center;
+ }
 .hero{
   position: relative;
 }
