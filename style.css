@@ -21,7 +21,7 @@ body {
 /* nav */
 nav {
   display: flex;
-  padding: 2% 6%;
+  padding: 0.8% 6%;
   justify-content: space-between;
   align-items: center;
   transition: all 2s;
@@ -39,12 +39,18 @@ nav {
 
 .nav__links ul li {
   display: inline-block;
+  font-size: 15px;
   padding: 15px 12px;
+  letter-spacing: 2px;
 }
 
 nav .fa {
   display: none;
   cursor: pointer;
+}
+
+nav li a{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* nav media queris */
 @media (max-width: 800px) {
@@ -107,7 +113,7 @@ nav .fa {
   animation: glow 1s ease-in-out infinite alternate;
 }
 
-@keyframes glow {
+/* @keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
       0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
@@ -116,11 +122,8 @@ nav .fa {
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
       0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
-}
-
-/* .front-text h1:hover {
-  color: #f209d7;
 } */
+
 
 .about-text {
   margin: 50px;
@@ -626,17 +629,7 @@ strong {
   cursor: pointer;
 }
 
-/*  */
-.map-con {
-  padding: 10px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
 
-.map-con h1 {
-  font-family: monospace;
-}
 /* Footer */
 .footer {
   background: #805;
@@ -758,6 +751,20 @@ strong {
 
 .p {
   line-height: 42px;
+}
+
+/* MAP  */
+.map-con {
+  padding: 10px;
+}
+
+.map-con h1 {
+  font-family: monospace;
+}
+.map{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media (max-width: 800px) {
   .front-text h1 {
