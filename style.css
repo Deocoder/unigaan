@@ -434,9 +434,6 @@ iframe img {
   transition: all 1.5s ease-in-out;
 }
 
-.mar {
-  margin-top: 20px;
-}
 
 h1 {
   text-align: center;
@@ -446,11 +443,16 @@ h1 {
 
 .box .image {
   margin: 10px 0;
-  height: 280px;
+  height: 290px;
   width: 280px;
   /* background: #f209d7; */
   padding: 3px;
   border-radius: 50%;
+}
+
+.mar .image{
+  height: 350px;
+  width: 300px;
 }
 
 .box .image img {
